@@ -173,7 +173,7 @@ availableFunctions = {
 if 'messages' not in st.session_state:
     st.session_state['messages'] = []
 
-st.title('StockSage: Stock Analysis Assistant')
+st.title('Stock Analysis Assistant')
 
 user_input = st.text_input('Your input:')
 
